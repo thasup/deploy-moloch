@@ -7,11 +7,7 @@ require("@nomiclabs/hardhat-truffle5");
 require("./scripts/moloch-tasks");
 require("./scripts/pool-tasks");
 
-const ALCHEMY_API_KEY = process.env.API_URL;
-// const MAINNET_PRIVATE_KEY = "";
-// const ROPSTEN_PRIVATE_KEY = "";
-const GOERLI_PRIVATE_KEY = process.env.PRIVATE_KEY;
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API;
+const { ALCHEMY_API_KEY, GOERLI_PRIVATE_KEY, ETHERSCAN_API_KEY } = process.env;
 
 module.exports = {
   networks: {
