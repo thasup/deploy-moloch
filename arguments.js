@@ -18,4 +18,4 @@ module.exports = [
 ];
 
 // Use this command to verify the contract
-// npx hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
+// npx hardhat verify --constructor-args arguments.js --network goerli DEPLOYED_CONTRACT_ADDRESS
