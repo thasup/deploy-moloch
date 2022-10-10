@@ -18,11 +18,11 @@ module.exports = {
         pool: ""
       }
     },
-    goerli: {
-      url: `https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+    polygon_mumbai: {
+      url: `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
       accounts: [GOERLI_PRIVATE_KEY],
       deployedContracts: {
-        moloch: "0xA18C3a907512029bAF167D0bA2b31b4Aac794fAb",
+        moloch: "",
         pool: ""
       }
     }, /*

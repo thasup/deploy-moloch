@@ -2,7 +2,7 @@ module.exports = [
   // address _summoner
   "0x6D6Fe13E339Aa55743E2A719f80A71Ee6e18831f",
   // address[] memory _approvedTokens
-  ["0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"],
+  ["0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889"],
   // uint256 _periodDuration
   17280,
   // uint256 _votingPeriodLength

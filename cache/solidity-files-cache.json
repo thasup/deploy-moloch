@@ -147,8 +147,8 @@
       ]
     },
     "/Users/first/Git/deploy-moloch/contracts/Moloch.sol": {
-      "lastModificationDate": 1664250213731,
-      "contentHash": "955496feb9075b20ac9495b6072b7c77",
+      "lastModificationDate": 1665387645398,
+      "contentHash": "8063ab5973f9a4e156f6c240231c4983",
       "sourceName": "contracts/Moloch.sol",
       "solcConfig": {
         "version": "0.5.3",
