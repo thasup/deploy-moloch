@@ -41,7 +41,7 @@ task('moloch-deploy', 'Deploys a new instance of the Moloch DAO')
       return
     }
 
-    const Moloch = artifacts.require('Moloch')
+    const Moloch = artifacts.require('MolochSummoner')
 
     console.log("Deploying...")
     const moloch = await Moloch.new(
