@@ -7,7 +7,7 @@ require("@nomiclabs/hardhat-truffle5");
 require("./scripts/moloch-tasks");
 require("./scripts/pool-tasks");
 
-const { ALCHEMY_API_KEY, PRIVATE_KEY, POLYGONSCAN_API_KEY } = process.env;
+const { ALCHEMY_API_KEY, PRIVATE_KEY, ETHERSCAN_API_KEY } = process.env;
 
 module.exports = {
   networks: {
@@ -18,8 +18,8 @@ module.exports = {
         pool: ""
       }
     },
-    polygon_mumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+    goerli: {
+      url: `https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
       accounts: [PRIVATE_KEY],
       deployedContracts: {
         moloch: "",
@@ -53,6 +53,6 @@ module.exports = {
     url: "https://api-goerli.etherscan.io/",
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: POLYGONSCAN_API_KEY
+    apiKey: ETHERSCAN_API_KEY
   }
 };

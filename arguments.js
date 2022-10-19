@@ -10,11 +10,11 @@ module.exports = [
   // uint256 _gracePeriodLength
   35,
   // uint256 _proposalDeposit
-  "1000000000000000000", // 1 ETH
+  "100000000000000000", // 0.1 ETH
   // uint256 _dilutionBound
   3,
   // uint256 _processingReward
-  "10000000000" // 0.00000001 ETH
+  "10000000000000000", // 0.01 ETH
 ];
 
 // Use this command to verify the contract
